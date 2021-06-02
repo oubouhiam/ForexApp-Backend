@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 require('dotenv').config()
 
 //Mongoose
-mongoose.connect('mongodb+srv://admin:admin@cluster0.f0vfb.mongodb.net/Forex?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://admin:admin@cluster0.f0vfb.mongodb.net/ForexApp?retryWrites=true&w=majority',{
         useNewUrlParser: true,
         useCreateIndex: true,
         useUnifiedTopology: true
